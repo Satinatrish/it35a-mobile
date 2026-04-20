@@ -1,10 +1,10 @@
 import { IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, IonTitle, IonToolbar } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { Redirect, Route } from "react-router";
-import Feed from "./home-tabs/Feed";
+import { bookOutline, search, star } from "ionicons/icons";
 import Favorites from "./home-tabs/Favorites";
 import Search from "./home-tabs/Search";
-import { bookOutline, search, star } from "ionicons/icons";
+import Feed from "./home-tabs/Feed";
 const Home: React.FC = () => {
   const tabs = [
     {name: "Feed", tab: 'feed',url: "/app/home/feed", icon:bookOutline},
